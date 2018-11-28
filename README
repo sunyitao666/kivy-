@@ -2,3 +2,5 @@
 import log_android
 
 即可。
+
+日志文件存储在"storage/emulated/0/$APP_NAME$/logs"目录。
