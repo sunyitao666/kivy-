@@ -1,0 +1,4 @@
+在主程序开头
+import log_android
+
+即可。
