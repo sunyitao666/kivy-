@@ -1,6 +1,14 @@
-在主程序开头
-import log_android
+手机未root，不方便查日志调试。
 
-即可。
+为了方便调试，将log文件写在外部存储空间内。
+
+使用方法：
+  在主程序开头
+  import log_android
+  即可。
 
 日志文件存储在"storage/emulated/0/$APP_NAME$/logs"目录。
+
+注意：
+  打包时需要添加权限：
+  --permission WRITE_EXTERNAL_STORAGE
